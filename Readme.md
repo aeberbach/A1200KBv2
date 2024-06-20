@@ -9,3 +9,5 @@ Also changed with this keyboard is the space bar layout. You can use whichever w
 If using a narrower space bar then the space-filling module can contain a translucent part to allow a LED to shine through for cap lock. Three LED positions are provided to suit whatever you want to do. The conventional cap lock position under the caps lock key is also provided but a shine-though (windowed or translucent double shot) is very hard to find.
 
 To allow for a plate on top of the PCB, various M3 holes are provided. It should be possible to print a plate in two or three pieces and this should keep the keyswitches perfectly straight, improve keyboard stiffness, dampen sound and make for a better appearance.
+
+Note this this project is licensed under CC BY-NC-SA 4.0 - only noncommercial use is permitted! (By all means sell the excess PCBs you get, at cost, if you order some for your own use)
