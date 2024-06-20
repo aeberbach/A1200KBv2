@@ -31,6 +31,7 @@ The cost of all this varies with the cost of PCB manufacture, keyswitches and st
 - LED $0.50
 - FFC connector and cable $8
 - 3D printed parts $10
+
 And assembly will take at least three hours. That's just under $100 in parts alone and does not even count a quality set of keycaps at around $150. Clearly if you want one of these you are a person of wealth and taste and know which is the best computer! If a person has ordered the minimum of 5 PCBs from one of the usual places and wants to offer the extras for sale, an assembled keyboard (no caps) should sell for no more than $150. That's a small but fair markup for labour and the person building five keyboards will end up paying for their own.
 
 The STL folder is not yet present. It will eventually contain mounts for the A1200.net Amiga case, mounts for the original C= and Escom cases if people loan me those to measure, the plate for the top of the PCB and the spacer modules that fit to the side of the space bar.
