@@ -10711,7 +10711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
 			(at 498.475 268.4018 0)
 			(effects
 				(font
@@ -11647,7 +11647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-Universal-Space"
 			(at 176.53 268.4018 0)
 			(effects
 				(font
@@ -13227,7 +13227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
 			(at 561.975 253.1618 0)
 			(effects
 				(font
@@ -13371,7 +13371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-ISO-plate-stabilizer"
 			(at 387.35 192.2018 0)
 			(effects
 				(font
@@ -13744,7 +13744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
 			(at 44.45 192.2018 0)
 			(effects
 				(font
@@ -13960,7 +13960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga_FFC:KS-33-2.75U-plate-stabilizer"
 			(at 349.25 243.0018 0)
 			(effects
 				(font
