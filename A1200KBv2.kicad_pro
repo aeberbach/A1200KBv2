@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 5.1,
+          "height": 5.1,
+          "width": 5.1
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -495,6 +496,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -595,6 +597,10 @@
     [
       "0d00ef8d-f6c3-4809-8afb-ec1a77232a12",
       "Root"
+    ],
+    [
+      "b86d5b78-6f02-4045-93d9-c2788de5dffe",
+      "LEDs"
     ]
   ],
   "text_variables": {}

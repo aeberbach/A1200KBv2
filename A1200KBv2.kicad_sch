@@ -3274,187 +3274,12 @@
 				)
 			)
 		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 510.54 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0226f31e-1a7d-4130-a5b9-2c279f13d823")
-	)
-	(junction
-		(at 283.21 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05266d58-100b-41aa-ae5b-a9a7f411b033")
 	)
 	(junction
 		(at 348.615 283.845)
@@ -3491,12 +3316,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09530218-f34f-4868-b15b-91571b8ada0d")
-	)
-	(junction
-		(at 283.21 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09b203d9-6a65-44ac-9c4e-e9e3510e2dbc")
 	)
 	(junction
 		(at 257.175 146.685)
@@ -3563,12 +3382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1307ef43-0cc5-4c8a-b374-5451288ef107")
-	)
-	(junction
-		(at 260.35 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1839370d-8f3f-41ac-aa59-065335987b67")
 	)
 	(junction
 		(at 374.015 182.88)
@@ -3661,12 +3474,6 @@
 		(uuid "297e681b-14c9-4c58-971a-5a4f7b819150")
 	)
 	(junction
-		(at 283.21 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29f655d4-77fd-44ea-899d-382ea59895ba")
-	)
-	(junction
 		(at 394.335 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3689,12 +3496,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30578737-94c1-4fbf-af47-f0470712c607")
-	)
-	(junction
-		(at 260.35 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "311ded38-48c4-499a-8b71-3620eb34774f")
 	)
 	(junction
 		(at 455.295 182.245)
@@ -3949,12 +3750,6 @@
 		(uuid "733427d2-0aeb-4142-be3f-850baab843fc")
 	)
 	(junction
-		(at 260.35 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79548112-2e62-4dab-baad-bb66d11553f2")
-	)
-	(junction
 		(at 297.815 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4049,6 +3844,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94b3c295-6fb0-4e7c-bdd8-e6294f08d8c7")
+	)
+	(junction
+		(at 257.81 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9605de39-f23a-4b01-9abc-f6a238348034")
 	)
 	(junction
 		(at 280.035 222.885)
@@ -4452,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.025 224.155) (xy 78.74 224.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000a053c-6f56-49c2-bd11-eceb0cbc07d4")
+	)
+	(wire
+		(pts
 			(xy 242.57 110.49) (xy 242.57 31.75)
 		)
 		(stroke
@@ -4569,6 +4380,16 @@
 			(type default)
 		)
 		(uuid "055a609c-a4e7-4b9f-a3e2-766269fb0b57")
+	)
+	(wire
+		(pts
+			(xy 78.74 224.155) (xy 78.74 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065d503d-608c-4e6b-8cf6-81ba96937ca2")
 	)
 	(wire
 		(pts
@@ -4779,16 +4600,6 @@
 			(type default)
 		)
 		(uuid "108a355c-a70a-4235-b213-e45991062a50")
-	)
-	(wire
-		(pts
-			(xy 201.93 62.23) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11439fde-727b-4ed9-a528-5c2fa48f5c81")
 	)
 	(wire
 		(pts
@@ -5112,16 +4923,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 83.82) (xy 267.97 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c098520-0694-4a69-9663-ed0c7be5c998")
-	)
-	(wire
-		(pts
 			(xy 422.275 248.285) (xy 438.15 248.285)
 		)
 		(stroke
@@ -5129,16 +4930,6 @@
 			(type default)
 		)
 		(uuid "1c247b30-2bdb-41bd-9dda-be60023b0fc0")
-	)
-	(wire
-		(pts
-			(xy 267.97 95.25) (xy 260.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cf6eae3-73a2-4f4d-80fa-9106b3047c56")
 	)
 	(wire
 		(pts
@@ -5332,6 +5123,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 31.75) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273b668e-6a26-4a79-a4df-64304269c1f4")
+	)
+	(wire
+		(pts
 			(xy 552.45 273.685) (xy 552.45 116.84)
 		)
 		(stroke
@@ -5339,16 +5140,6 @@
 			(type default)
 		)
 		(uuid "28172f7a-7069-4e9d-97dd-1f62cbdcdf11")
-	)
-	(wire
-		(pts
-			(xy 283.21 72.39) (xy 283.21 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2964153c-d528-4ebb-a847-e344e569866c")
 	)
 	(wire
 		(pts
@@ -5429,6 +5220,16 @@
 			(type default)
 		)
 		(uuid "2d357eaf-775f-40e3-a332-5d90b584e04f")
+	)
+	(wire
+		(pts
+			(xy 70.485 226.695) (xy 64.77 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5bc15d-767e-4c1b-a2ab-f8b03dcffa7a")
 	)
 	(wire
 		(pts
@@ -5539,16 +5340,6 @@
 			(type default)
 		)
 		(uuid "31e413ea-b1b9-4274-9136-c50734efa034")
-	)
-	(wire
-		(pts
-			(xy 201.93 31.75) (xy 201.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3259cfd2-61c4-46f4-ae6c-09f36285e651")
 	)
 	(wire
 		(pts
@@ -5679,16 +5470,6 @@
 			(type default)
 		)
 		(uuid "378b1196-c7d2-4b80-bcac-64325f6b9bca")
-	)
-	(wire
-		(pts
-			(xy 283.21 83.82) (xy 275.59 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c50ebf-4c21-4bec-8e3d-91e9c2bc5416")
 	)
 	(wire
 		(pts
@@ -6302,6 +6083,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 99.06) (xy 64.77 226.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "517bc5fb-ba44-47ed-b6e6-d7d3d7462ece")
+	)
+	(wire
+		(pts
 			(xy 74.295 151.765) (xy 74.295 157.48)
 		)
 		(stroke
@@ -6432,6 +6223,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 54.61) (xy 302.26 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a21d96-cac3-428a-adb6-663f46e8aebc")
+	)
+	(wire
+		(pts
 			(xy 170.815 253.365) (xy 170.815 259.08)
 		)
 		(stroke
@@ -6439,16 +6240,6 @@
 			(type default)
 		)
 		(uuid "55a7ce44-8485-4fbe-b754-8f6b1059293d")
-	)
-	(wire
-		(pts
-			(xy 283.21 62.23) (xy 283.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55aefde6-5a13-4792-8b3e-58246154706a")
 	)
 	(wire
 		(pts
@@ -6619,6 +6410,16 @@
 			(type default)
 		)
 		(uuid "5c1d3d9e-fcfb-4f33-9b32-af38d4bd9ee3")
+	)
+	(wire
+		(pts
+			(xy 66.04 210.82) (xy 66.04 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cdcfbdd-90af-4256-acf5-925492b85618")
 	)
 	(wire
 		(pts
@@ -7102,16 +6903,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 83.82) (xy 283.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72531e26-898f-4975-b366-b845fa66809f")
-	)
-	(wire
-		(pts
 			(xy 48.895 160.655) (xy 36.83 160.655)
 		)
 		(stroke
@@ -7119,16 +6910,6 @@
 			(type default)
 		)
 		(uuid "72e394b8-31e3-4e22-a1ae-07908634ab33")
-	)
-	(wire
-		(pts
-			(xy 283.21 48.26) (xy 283.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74f62d3e-9f87-4c3c-99ad-355d2538359c")
 	)
 	(wire
 		(pts
@@ -7312,16 +7093,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 31.75) (xy 257.81 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a10382-7c59-426c-bfce-4edfab2d6188")
-	)
-	(wire
-		(pts
 			(xy 252.095 248.285) (xy 255.27 248.285)
 		)
 		(stroke
@@ -7409,6 +7180,16 @@
 			(type default)
 		)
 		(uuid "874f2500-eb0b-439d-9f15-b0ae6e7c3cb9")
+	)
+	(wire
+		(pts
+			(xy 257.81 54.61) (xy 257.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ade2b0-53e4-4bfa-a2da-2649f7d637f3")
 	)
 	(wire
 		(pts
@@ -7572,16 +7353,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 72.39) (xy 267.97 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90bc2674-a909-484e-9738-e52ecc634650")
-	)
-	(wire
-		(pts
 			(xy 297.815 233.68) (xy 323.215 233.68)
 		)
 		(stroke
@@ -7642,16 +7413,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 72.39) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9498a043-fcdc-46d2-b785-5448188513bc")
-	)
-	(wire
-		(pts
 			(xy 436.88 181.61) (xy 436.88 187.325)
 		)
 		(stroke
@@ -7679,6 +7440,16 @@
 			(type default)
 		)
 		(uuid "94bb7423-83dc-4d73-b4b3-a7f4e8691096")
+	)
+	(wire
+		(pts
+			(xy 257.81 99.06) (xy 64.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9597b72f-4e9e-4fc2-9f13-5d2c531fa274")
 	)
 	(wire
 		(pts
@@ -8062,16 +7833,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 62.23) (xy 275.59 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9fa93be-3d7d-4b80-b067-7deaa751a1a4")
-	)
-	(wire
-		(pts
 			(xy 59.055 283.845) (xy 31.115 283.845)
 		)
 		(stroke
@@ -8412,16 +8173,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 95.25) (xy 275.59 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5532fcd-7f6b-4210-be3f-1eda9a9a4a25")
-	)
-	(wire
-		(pts
 			(xy 341.63 283.845) (xy 92.075 283.845)
 		)
 		(stroke
@@ -8429,6 +8180,16 @@
 			(type default)
 		)
 		(uuid "b5e1e9f7-4e6c-4f21-a511-3528ccb83727")
+	)
+	(wire
+		(pts
+			(xy 78.74 210.82) (xy 66.04 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e50eba-cfdd-45a0-bd5c-5da67dd7c502")
 	)
 	(wire
 		(pts
@@ -8702,13 +8463,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 95.25) (xy 260.35 83.82)
+			(xy 66.04 107.95) (xy 201.93 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2f7b409-2748-48cb-85d9-f1abc2671b6f")
+		(uuid "c31834cc-fd91-43a4-8f74-79ef9509a449")
 	)
 	(wire
 		(pts
@@ -8749,16 +8510,6 @@
 			(type default)
 		)
 		(uuid "c49994c3-9692-4863-addb-1c86a51fb605")
-	)
-	(wire
-		(pts
-			(xy 257.81 48.26) (xy 283.21 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a3aeba-7bfe-4975-8674-f0e2d0ab8d25")
 	)
 	(wire
 		(pts
@@ -9282,16 +9033,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 72.39) (xy 275.59 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa7be96-9477-40b6-91fa-1130bf6147ce")
-	)
-	(wire
-		(pts
 			(xy 81.915 160.655) (xy 103.505 160.655)
 		)
 		(stroke
@@ -9612,16 +9353,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 62.23) (xy 267.97 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7f1d935-983b-4ca5-b27b-6833e8f1a192")
-	)
-	(wire
-		(pts
 			(xy 81.915 120.65) (xy 222.25 120.65)
 		)
 		(stroke
@@ -9849,6 +9580,16 @@
 			(type default)
 		)
 		(uuid "f09278b7-4190-468d-8fab-faa4748a6b7e")
+	)
+	(wire
+		(pts
+			(xy 257.81 31.75) (xy 257.81 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09bfc26-896f-41d1-95e5-9ad47678fef7")
 	)
 	(wire
 		(pts
@@ -10122,16 +9863,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 83.82) (xy 260.35 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb653b10-e05d-48d7-94f6-849cb8f23570")
-	)
-	(wire
-		(pts
 			(xy 201.295 197.5185) (xy 201.295 197.485)
 		)
 		(stroke
@@ -10334,6 +10065,17 @@
 		)
 		(uuid "66690fa8-13ed-40b5-a559-e2951dac5e2e")
 	)
+	(label "LED"
+		(at 66.04 195.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e8ef9e0-8c0b-47a3-b739-d27353c42cae")
+	)
 	(label "5"
 		(at 191.77 129.54 90)
 		(fields_autoplaced yes)
@@ -10509,6 +10251,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2900f77-912d-40ed-8714-30352421a418")
+	)
+	(label "LEDGND"
+		(at 64.77 203.2 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a337103b-765f-4ef0-bd41-2809423be831")
 	)
 	(label "18"
 		(at 546.735 129.54 90)
@@ -10686,6 +10439,28 @@
 		)
 		(uuid "fe558039-8b9e-47fa-992c-5e161527167f")
 	)
+	(global_label "{slash}CAPSLOCK"
+		(shape input)
+		(at 302.26 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f057b048-1042-4c04-bd4f-4691bc1c97c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 316.3124 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "A1200KB-rescue:MX-2U-MX_Alps_Hybrids-A1200KB-rescue")
 		(at 498.475 274.32 0)
@@ -10711,7 +10486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
+		(property "Footprint" "Amiga Keyboard:KS-33-2U-stabilizer"
 			(at 498.475 268.4018 0)
 			(effects
 				(font
@@ -10783,7 +10558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 443.23 217.6018 0)
 			(effects
 				(font
@@ -10855,7 +10630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 196.85 217.6018 0)
 			(effects
 				(font
@@ -10927,7 +10702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 171.45 192.2018 0)
 			(effects
 				(font
@@ -10999,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 359.41 268.4018 0)
 			(effects
 				(font
@@ -11071,7 +10846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 349.25 192.2018 0)
 			(effects
 				(font
@@ -11143,7 +10918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 485.775 192.2018 0)
 			(effects
 				(font
@@ -11215,7 +10990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 298.45 192.2018 0)
 			(effects
 				(font
@@ -11287,7 +11062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 95.25 166.8018 0)
 			(effects
 				(font
@@ -11359,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 171.45 217.6018 0)
 			(effects
 				(font
@@ -11431,7 +11206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 443.23 243.0018 0)
 			(effects
 				(font
@@ -11503,7 +11278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 561.975 192.2018 0)
 			(effects
 				(font
@@ -11575,7 +11350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 74.93 141.4018 0)
 			(effects
 				(font
@@ -11647,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-Universal-Space"
+		(property "Footprint" "Amiga Keyboard:KS-33-8U-space"
 			(at 176.53 268.4018 0)
 			(effects
 				(font
@@ -11719,7 +11494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 247.65 192.2018 0)
 			(effects
 				(font
@@ -11791,7 +11566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 222.25 243.0018 0)
 			(effects
 				(font
@@ -11863,7 +11638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 511.175 243.0018 0)
 			(effects
 				(font
@@ -11935,7 +11710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 536.575 268.4018 0)
 			(effects
 				(font
@@ -12007,7 +11782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 485.775 166.8018 0)
 			(effects
 				(font
@@ -12079,7 +11854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 374.65 166.8018 0)
 			(effects
 				(font
@@ -12151,7 +11926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 85.09 268.4018 0)
 			(effects
 				(font
@@ -12223,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 95.25 217.6018 0)
 			(effects
 				(font
@@ -12295,7 +12070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 120.65 243.0018 0)
 			(effects
 				(font
@@ -12367,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 146.05 217.6018 0)
 			(effects
 				(font
@@ -12439,7 +12214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-LED-Solderable-1U"
 			(at 69.85 217.6018 0)
 			(effects
 				(font
@@ -12511,7 +12286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.5U"
 			(at 44.45 166.8018 0)
 			(effects
 				(font
@@ -12583,7 +12358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 536.575 217.6018 0)
 			(effects
 				(font
@@ -12655,7 +12430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 485.775 243.0018 0)
 			(effects
 				(font
@@ -12727,7 +12502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 222.25 192.2018 0)
 			(effects
 				(font
@@ -12799,7 +12574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 561.975 166.8018 0)
 			(effects
 				(font
@@ -12871,7 +12646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 222.25 166.8018 0)
 			(effects
 				(font
@@ -12943,7 +12718,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 247.65 243.0018 0)
 			(effects
 				(font
@@ -12991,74 +12766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 271.78 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68cdbb42-cbc4-445e-b644-46e9322cd572")
-		(property "Reference" "D4"
-			(at 273.3675 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.3675 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 271.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "729bd80b-43ab-482b-ac3d-c9cf24bbdfa6")
-		)
-		(pin "2"
-			(uuid "2090ce99-79af-4424-bc63-0d4cf2b23eb8")
-		)
-		(instances
-			(project "A1200KBv2"
-				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A1200KB-rescue:MX-1U-MX_Alps_Hybrids-A1200KB-rescue")
 		(at 146.05 172.72 0)
 		(unit 1)
@@ -13083,7 +12790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 146.05 166.8018 0)
 			(effects
 				(font
@@ -13155,7 +12862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 120.65 192.2018 0)
 			(effects
 				(font
@@ -13227,7 +12934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
+		(property "Footprint" "Amiga Keyboard:KS-33-2U-stabilizer"
 			(at 561.975 253.1618 0)
 			(effects
 				(font
@@ -13299,7 +13006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 44.45 217.6018 0)
 			(effects
 				(font
@@ -13371,7 +13078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-ISO-plate-stabilizer"
+		(property "Footprint" "Amiga Keyboard:KS-33-ISO-2U-stabilizer"
 			(at 387.35 192.2018 0)
 			(effects
 				(font
@@ -13443,7 +13150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 323.85 243.0018 0)
 			(effects
 				(font
@@ -13515,7 +13222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 95.25 192.2018 0)
 			(effects
 				(font
@@ -13744,7 +13451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-2U-plate-stabilizer"
+		(property "Footprint" "Amiga Keyboard:KS-33-2U-stabilizer"
 			(at 44.45 192.2018 0)
 			(effects
 				(font
@@ -13816,7 +13523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 273.05 217.6018 0)
 			(effects
 				(font
@@ -13888,7 +13595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 374.65 217.6018 0)
 			(effects
 				(font
@@ -13960,7 +13667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga_FFC:KS-33-2.75U-plate-stabilizer"
+		(property "Footprint" "Amiga Keyboard:KS-33-2U-stabilizer"
 			(at 349.25 243.0018 0)
 			(effects
 				(font
@@ -14032,7 +13739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 323.85 217.6018 0)
 			(effects
 				(font
@@ -14104,7 +13811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 105.41 141.4018 0)
 			(effects
 				(font
@@ -14176,7 +13883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 120.65 217.6018 0)
 			(effects
 				(font
@@ -14248,7 +13955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 275.59 141.4018 0)
 			(effects
 				(font
@@ -14320,7 +14027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 196.85 192.2018 0)
 			(effects
 				(font
@@ -14392,7 +14099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 273.05 166.8018 0)
 			(effects
 				(font
@@ -14464,7 +14171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 298.45 217.6018 0)
 			(effects
 				(font
@@ -14536,7 +14243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 536.575 192.2018 0)
 			(effects
 				(font
@@ -14608,7 +14315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 417.83 243.0018 0)
 			(effects
 				(font
@@ -14680,7 +14387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 133.35 141.4018 0)
 			(effects
 				(font
@@ -14752,7 +14459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.5U"
 			(at 430.53 166.8018 0)
 			(effects
 				(font
@@ -14824,7 +14531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 536.575 166.8018 0)
 			(effects
 				(font
@@ -14896,7 +14603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 323.85 192.2018 0)
 			(effects
 				(font
@@ -14968,7 +14675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 59.69 268.4018 0)
 			(effects
 				(font
@@ -15040,7 +14747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 146.05 243.0018 0)
 			(effects
 				(font
@@ -15112,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 196.85 166.8018 0)
 			(effects
 				(font
@@ -15184,7 +14891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 146.05 192.2018 0)
 			(effects
 				(font
@@ -15256,7 +14963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 511.175 217.6018 0)
 			(effects
 				(font
@@ -15328,7 +15035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 95.25 243.0018 0)
 			(effects
 				(font
@@ -15400,7 +15107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 336.55 141.4018 0)
 			(effects
 				(font
@@ -15472,7 +15179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 43.18 141.4018 90)
 			(effects
 				(font
@@ -15544,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 222.25 217.6018 0)
 			(effects
 				(font
@@ -15616,7 +15323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 189.23 141.4018 0)
 			(effects
 				(font
@@ -15688,7 +15395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 171.45 243.0018 0)
 			(effects
 				(font
@@ -15760,7 +15467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 69.85 166.8018 0)
 			(effects
 				(font
@@ -15832,7 +15539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 247.65 166.8018 0)
 			(effects
 				(font
@@ -15904,7 +15611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 69.85 243.0018 0)
 			(effects
 				(font
@@ -15976,7 +15683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 511.175 166.8018 0)
 			(effects
 				(font
@@ -16048,7 +15755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 298.45 243.0018 0)
 			(effects
 				(font
@@ -16120,7 +15827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 306.07 141.4018 0)
 			(effects
 				(font
@@ -16192,7 +15899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 161.29 141.4018 0)
 			(effects
 				(font
@@ -16264,7 +15971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 561.975 217.6018 0)
 			(effects
 				(font
@@ -16312,74 +16019,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 271.78 62.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d035a373-6210-45d1-9aab-f7efc8e7a4cc")
-		(property "Reference" "D1"
-			(at 273.3675 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.3675 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 271.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 271.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a43adc82-61c2-4b71-b5d3-2bf79fe3c0d8")
-		)
-		(pin "2"
-			(uuid "1e41e01c-f81b-4939-9dff-6c7c1e3e7648")
-		)
-		(instances
-			(project "A1200KBv2"
-				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A1200KB-rescue:MX-1U-MX_Alps_Hybrids-A1200KB-rescue")
 		(at 247.65 223.52 0)
 		(unit 1)
@@ -16404,7 +16043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 247.65 217.6018 0)
 			(effects
 				(font
@@ -16476,7 +16115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 400.05 166.8018 0)
 			(effects
 				(font
@@ -16548,7 +16187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 349.25 166.8018 0)
 			(effects
 				(font
@@ -16620,7 +16259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 171.45 166.8018 0)
 			(effects
 				(font
@@ -16692,7 +16331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 273.05 243.0018 0)
 			(effects
 				(font
@@ -16764,7 +16403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 273.05 192.2018 0)
 			(effects
 				(font
@@ -16836,7 +16475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 367.03 141.4018 0)
 			(effects
 				(font
@@ -16908,7 +16547,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 349.25 217.6018 0)
 			(effects
 				(font
@@ -16980,7 +16619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 298.45 166.8018 0)
 			(effects
 				(font
@@ -17052,7 +16691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 69.85 192.2018 0)
 			(effects
 				(font
@@ -17124,7 +16763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 120.65 166.8018 0)
 			(effects
 				(font
@@ -17196,7 +16835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.75U"
 			(at 44.45 243.0018 0)
 			(effects
 				(font
@@ -17268,7 +16907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 196.85 243.0018 0)
 			(effects
 				(font
@@ -17340,7 +16979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 323.85 166.8018 0)
 			(effects
 				(font
@@ -17388,74 +17027,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 271.78 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8274913-3d1d-4bfb-af9a-3d729ad44197")
-		(property "Reference" "D3"
-			(at 273.3675 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.3675 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 271.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 271.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6b75aff-7555-497b-89ec-ce638bd9bd9d")
-		)
-		(pin "2"
-			(uuid "631223de-10a1-4d2a-bfaf-bc4b84a2357f")
-		)
-		(instances
-			(project "A1200KBv2"
-				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A1200KB-rescue:MX-1U-MX_Alps_Hybrids-A1200KB-rescue")
 		(at 511.175 198.12 0)
 		(unit 1)
@@ -17480,7 +17051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 511.175 192.2018 0)
 			(effects
 				(font
@@ -17528,74 +17099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 271.78 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f40a3998-a119-4193-ac1c-96378bd43f7e")
-		(property "Reference" "D2"
-			(at 273.3675 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.3675 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 271.78 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 271.78 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6424daf4-5fdd-4027-873f-62ff37d86e5d")
-		)
-		(pin "2"
-			(uuid "a34ca89f-cff3-487d-899c-c38b69afca68")
-		)
-		(instances
-			(project "A1200KBv2"
-				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "A1200KB-rescue:MX-1.25U-MX_Alps_Hybrids-A1200KB-rescue")
 		(at 245.11 147.32 0)
 		(unit 1)
@@ -17620,7 +17123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 245.11 141.4018 0)
 			(effects
 				(font
@@ -17692,7 +17195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.25U"
 			(at 334.01 268.4018 0)
 			(effects
 				(font
@@ -17764,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1.5U"
 			(at 455.93 166.8018 0)
 			(effects
 				(font
@@ -17836,7 +17339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 536.575 243.0018 0)
 			(effects
 				(font
@@ -17908,7 +17411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 468.63 243.0018 0)
 			(effects
 				(font
@@ -17980,7 +17483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "key-switches.pretty-0.11.0:SW_Gateron_LowProfile_THT"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 485.775 217.6018 0)
 			(effects
 				(font
@@ -18023,6 +17526,44 @@
 				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
 					(reference "K81")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 328.93)
+		(size 44.45 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b86d5b78-6f02-4045-93d9-c2788de5dffe")
+		(property "Sheetname" "LEDs"
+			(at 86.36 328.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 86.36 371.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "A1200KBv2"
+				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12"
+					(page "2")
 				)
 			)
 		)

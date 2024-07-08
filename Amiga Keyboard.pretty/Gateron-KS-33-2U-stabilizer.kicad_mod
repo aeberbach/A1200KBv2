@@ -1,0 +1,260 @@
+(footprint "Gateron-KS-33-2U-stabilizer"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "MX4"
+		(at 4.5 10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "778c8cb3-e504-4095-bddb-6fdf408b9578")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TAB"
+		(at -1 -5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "485133df-34ec-47c0-b010-fdc3692adc4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Amiga Keyboard:KS-33-2U-stabilizer"
+		(at 5.55 3.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5099a996-b4f2-4869-a95b-cb000a73466f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 5.55 3.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1be72025-d6d1-4124-a907-06afdee265ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 5.55 3.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e07b481-cfdb-4bd5-84c6-b2f9c34e1daa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6052c1bf-4acf-409a-92d9-a381255cdb4e")
+	)
+	(fp_line
+		(start -7 -7)
+		(end -7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "78492906-a824-4798-82f8-c91e7bedc490")
+	)
+	(fp_line
+		(start -7 5)
+		(end -7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0c9bffc5-ca48-44e3-a7ed-62146cf2d57a")
+	)
+	(fp_line
+		(start -7 7)
+		(end -5 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c6888c70-d64b-4df4-b9a0-79e0dadf105d")
+	)
+	(fp_line
+		(start -5 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "db6d6acc-5fa1-4f1b-921e-bd0b7fd9dd7f")
+	)
+	(fp_line
+		(start 5 -7)
+		(end 7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bf8f88f9-e485-448b-9bc7-2a441e8b2113")
+	)
+	(fp_line
+		(start 5 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b8eb9b6c-20d6-487a-9244-f616ba00e740")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8a832a53-847e-492d-aaaa-a9967e778239")
+	)
+	(fp_line
+		(start 7 7)
+		(end 7 5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fc135b1f-51b0-42be-be29-3b6f7021d8ea")
+	)
+	(fp_line
+		(start 19.05 -9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "78f01309-70f3-4ec9-b91e-e50cfb2cede3")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end -19.05 9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "876fc933-2de2-4790-a04e-25b0cdc5c802")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end 19.05 -9.525)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6e1295c0-5828-485f-b4bc-72d47e8d2e41")
+	)
+	(fp_rect
+		(start -3.2 -6.3)
+		(end 1.8 -4.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "224775f3-bd00-45d3-9979-816aa6f2b386")
+	)
+	(fp_rect
+		(start -15 -9)
+		(end -9 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "2979228b-cae7-48c9-a177-d543ece14400")
+	)
+	(fp_rect
+		(start 9 -9)
+		(end 15 6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "354843a3-d45b-4f03-9446-5e5c10d47771")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2 -8.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0e8f098d-1fb2-4811-95cd-a9fd2ea04fd5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 5.1 5.1)
+		(drill 5.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cfa92b44-913f-4893-871b-ce9be77a8c56")
+	)
+	(pad "1" thru_hole circle
+		(at -4.4 4.7 180)
+		(size 2.3 2.3)
+		(drill 1.45)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "1b7c649b-5170-4ea3-9fdf-fdba4b52ca38")
+	)
+	(pad "2" thru_hole circle
+		(at 2.6 5.75 180)
+		(size 2.3 2.3)
+		(drill 1.45)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "c0004451-526a-4c43-8a90-76818cb68ba3")
+	)
+)
