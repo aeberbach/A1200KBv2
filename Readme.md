@@ -15,7 +15,7 @@ Requirements:
 - 96 Gateron KS-33 keyswitches
 - 5 Gateron 2U plate-mount low-profile stabilizers
 - 1 more Gateron low-profile stabilizer to disassemble - bend your own wire from 1.0mm music wire, available from hobby stores.
-- 0805 LEDs: red, greem, yellow and blue (or whatever colors you like for the various functions)
+- 0805 LEDs: red, green, yellow and blue (or whatever colors you like for the various functions)
 - 0805 current-limiting resistor for each LED. Choose a value not less than 300 ohms. If your LEDs are too bright you can use higher values. I found that red/blue need around 1k, yellow/green 390 ohms. Your LEDs may vary.
 - 0.1uF 0805 decoupling capacitor
 - SN74LVC2G04DBVR dual inverter (available Mouser electronics)
