@@ -34,6 +34,7 @@ The cost of all this varies with the cost of PCB manufacture, keyswitches and st
 - LEDs and other components $2
 - FFC connector and cable $8
 - 3D printed parts $10
+
 And assembly will take at least three hours. That's just under $100 in parts alone and does not even count a quality set of keycaps at around $150. (But if you weren't slightly obsessed you probably wouldn't have an Amiga in 2024.)
 
 The license for this keyboard is non-commercial. However if a person has ordered the minimum of 5 PCBs from one of the usual places and wants to offer the extras for sale that is reasonable.
