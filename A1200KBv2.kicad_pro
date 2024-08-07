@@ -488,7 +488,7 @@
       "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "A1200KBv2.step",
       "svg": "",
       "vrml": ""
     },
