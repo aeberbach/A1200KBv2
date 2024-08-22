@@ -989,6 +989,12 @@
 		(uuid "c462d89c-0fca-44f9-a788-75eb3f18b93e")
 	)
 	(junction
+		(at 50.8 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df210854-b9da-4544-90f2-dbabc207f577")
+	)
+	(junction
 		(at 231.14 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1026,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 67.31) (xy 77.47 67.31)
+			(xy 40.64 67.31) (xy 50.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1086,6 +1092,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 55.88) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9dea51-e91e-42c5-ac75-ee63109b5d8b")
+	)
+	(wire
+		(pts
 			(xy 209.55 31.75) (xy 231.14 31.75)
 		)
 		(stroke
@@ -1116,6 +1132,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444ad94e-0c34-41ee-85df-0c99b1a00fdd")
+	)
+	(wire
+		(pts
 			(xy 146.05 87.63) (xy 161.29 87.63)
 		)
 		(stroke
@@ -1123,6 +1149,16 @@
 			(type default)
 		)
 		(uuid "48d5adf0-b919-41d9-8914-3597720c39b0")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a91785d-eb66-4997-a17b-0aa54b06c3d3")
 	)
 	(wire
 		(pts
@@ -1153,6 +1189,16 @@
 			(type default)
 		)
 		(uuid "58ea5d80-bb5e-4395-ae84-b351a00c66e1")
+	)
+	(wire
+		(pts
+			(xy 50.8 48.26) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8b9312-ff47-4cb8-be64-7501ffebd61a")
 	)
 	(wire
 		(pts
@@ -1621,6 +1667,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 40.64 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96c33fb0-0ac1-4312-b60f-21549f91dab2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.0262 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 170.18 114.3 0)
@@ -1770,6 +1838,73 @@
 			(project "A1200KBv2"
 				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12/b86d5b78-6f02-4045-93d9-c2788de5dffe"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f442341-1770-4c5c-8cad-e9c6f31f7872")
+		(property "Reference" "D1"
+			(at 52.578 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CAPS_LOCK"
+			(at 46.99 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40bda9ba-6d2c-4146-ab02-4007fcf61e26")
+		)
+		(pin "1"
+			(uuid "bff0000b-4931-46d6-bfb3-65325f24bfa1")
+		)
+		(instances
+			(project "A1200KBv2"
+				(path "/0d00ef8d-f6c3-4809-8afb-ec1a77232a12/b86d5b78-6f02-4045-93d9-c2788de5dffe"
+					(reference "D1")
 					(unit 1)
 				)
 			)
