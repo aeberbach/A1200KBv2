@@ -2,7 +2,6 @@
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
-	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "K32"
 		(at 9.2965 -7.65 0)
@@ -202,8 +201,8 @@
 		(uuid "72a783dc-fbc3-4a1a-a4e9-24ac270b78da")
 	)
 	(fp_rect
-		(start -69.75 -9)
-		(end -63.75 6)
+		(start -69.75 -10)
+		(end -63.75 5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -213,8 +212,8 @@
 		(uuid "d5a56e7d-cf74-4bf7-9286-f420f420062c")
 	)
 	(fp_rect
-		(start 63.75 -9)
-		(end 69.75 6)
+		(start 63.75 -10)
+		(end 69.75 5)
 		(stroke
 			(width 0.05)
 			(type default)

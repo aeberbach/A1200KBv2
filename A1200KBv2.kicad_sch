@@ -3846,12 +3846,6 @@
 		(uuid "94b3c295-6fb0-4e7c-bdd8-e6294f08d8c7")
 	)
 	(junction
-		(at 257.81 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9605de39-f23a-4b01-9abc-f6a238348034")
-	)
-	(junction
 		(at 280.035 222.885)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4253,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.025 224.155) (xy 78.74 224.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000a053c-6f56-49c2-bd11-eceb0cbc07d4")
-	)
-	(wire
-		(pts
 			(xy 242.57 110.49) (xy 242.57 31.75)
 		)
 		(stroke
@@ -4380,16 +4364,6 @@
 			(type default)
 		)
 		(uuid "055a609c-a4e7-4b9f-a3e2-766269fb0b57")
-	)
-	(wire
-		(pts
-			(xy 78.74 224.155) (xy 78.74 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "065d503d-608c-4e6b-8cf6-81ba96937ca2")
 	)
 	(wire
 		(pts
@@ -5123,16 +5097,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 31.75) (xy 201.93 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "273b668e-6a26-4a79-a4df-64304269c1f4")
-	)
-	(wire
-		(pts
 			(xy 552.45 273.685) (xy 552.45 116.84)
 		)
 		(stroke
@@ -5223,13 +5187,13 @@
 	)
 	(wire
 		(pts
-			(xy 70.485 226.695) (xy 64.77 226.695)
+			(xy 201.93 59.69) (xy 302.26 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d5bc15d-767e-4c1b-a2ab-f8b03dcffa7a")
+		(uuid "2d9bd2cf-155b-46d6-8678-f250388f5a38")
 	)
 	(wire
 		(pts
@@ -6083,16 +6047,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 99.06) (xy 64.77 226.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "517bc5fb-ba44-47ed-b6e6-d7d3d7462ece")
-	)
-	(wire
-		(pts
 			(xy 74.295 151.765) (xy 74.295 157.48)
 		)
 		(stroke
@@ -6410,16 +6364,6 @@
 			(type default)
 		)
 		(uuid "5c1d3d9e-fcfb-4f33-9b32-af38d4bd9ee3")
-	)
-	(wire
-		(pts
-			(xy 66.04 210.82) (xy 66.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cdcfbdd-90af-4256-acf5-925492b85618")
 	)
 	(wire
 		(pts
@@ -7183,16 +7127,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 54.61) (xy 257.81 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87ade2b0-53e4-4bfa-a2da-2649f7d637f3")
-	)
-	(wire
-		(pts
 			(xy 182.88 209.55) (xy 182.88 197.485)
 		)
 		(stroke
@@ -7220,6 +7154,16 @@
 			(type default)
 		)
 		(uuid "89201a84-ca3b-4512-8cb9-11622b5aeba3")
+	)
+	(wire
+		(pts
+			(xy 201.93 31.75) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8953d481-65e3-41e6-9b29-840e74bd5c12")
 	)
 	(wire
 		(pts
@@ -7440,16 +7384,6 @@
 			(type default)
 		)
 		(uuid "94bb7423-83dc-4d73-b4b3-a7f4e8691096")
-	)
-	(wire
-		(pts
-			(xy 257.81 99.06) (xy 64.77 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9597b72f-4e9e-4fc2-9f13-5d2c531fa274")
 	)
 	(wire
 		(pts
@@ -8183,16 +8117,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 210.82) (xy 66.04 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e50eba-cfdd-45a0-bd5c-5da67dd7c502")
-	)
-	(wire
-		(pts
 			(xy 221.615 202.565) (xy 221.615 208.28)
 		)
 		(stroke
@@ -8460,16 +8384,6 @@
 			(type default)
 		)
 		(uuid "c2a63a8d-d0b0-4d66-92f3-f6a60a0aa9ee")
-	)
-	(wire
-		(pts
-			(xy 66.04 107.95) (xy 201.93 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c31834cc-fd91-43a4-8f74-79ef9509a449")
 	)
 	(wire
 		(pts
@@ -10439,6 +10353,28 @@
 		)
 		(uuid "fe558039-8b9e-47fa-992c-5e161527167f")
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 302.26 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b347a82-5db0-40e9-a117-cf4f724c52af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.8738 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "{slash}CAPSLOCK"
 		(shape input)
 		(at 302.26 54.61 0)
@@ -12214,7 +12150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Amiga Keyboard:Gateron-KS33-LED-Solderable-1U"
+		(property "Footprint" "Amiga Keyboard:Gateron-KS33-Solderable-1U"
 			(at 69.85 217.6018 0)
 			(effects
 				(font

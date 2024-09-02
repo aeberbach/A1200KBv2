@@ -2,7 +2,6 @@
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
-	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "MX4"
 		(at 4.5 10.5 0)
@@ -201,8 +200,8 @@
 		(uuid "224775f3-bd00-45d3-9979-816aa6f2b386")
 	)
 	(fp_rect
-		(start -15 -9)
-		(end -9 6)
+		(start -15 -10)
+		(end -9 5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -212,8 +211,8 @@
 		(uuid "2979228b-cae7-48c9-a177-d543ece14400")
 	)
 	(fp_rect
-		(start 9 -9)
-		(end 15 6)
+		(start 9 -10)
+		(end 15 5)
 		(stroke
 			(width 0.05)
 			(type default)
